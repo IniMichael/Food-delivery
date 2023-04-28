@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation</title>
+    <link rel="stylesheet" href="project.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header class="headers">
+      <div class="logo-icon">
+        <div class="logo"><img src="./assets/logo.png"/></div>
+
+        <div onclick="openNav()" id="menu" class="hamburger-menu">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M3 7H21"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-linecap="round"
+            />
+            <path
+              d="M3 12H21"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-linecap="round"
+            />
+            <path
+              d="M3 17H21"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-linecap="round"
+            />
+          </svg>
+        </div>
+      </div>
+
+      <nav id="nav" class="navigation">
+        <ul class="nav-links-wrap">
+          <li class="nav-link">
+            <a href="about.html">Home</a>
+          </li>
+          <li class="nav-link">
+            <a href="tour.html">Menu</a>
+          </li>
+          <li class="nav-link">
+            <a href="packages.html">Orders</a>
+          </li>
+          <li class="nav-link">
+            <a href="gift.html">Shop</a>
+          </li>
+        </ul>
+        <button class="nav-btn">Contact us</button>
+      </nav>
+    </header>
+
+    <div class="general-wrapper1" id="gen-1">
+      <div class="container1" id="con1">
+      <div class="big-span">
+        <h1>The Fastest<br>Delivery<br>In <span>Your City</span></h1>
+
+        <p class="lorem1" id="words1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolor <br> 
+           harum ipsam nam modi labore maiores nisi accusamus atque odit qua possimus, earum tempore.
+        </p>
+
+        <button class="order" id="buy">Order Now</button>
+      </div>
+    </div>
+
+    <div class="hero-wrapper" id="hero"></div>
+    </div>
+
+    <div class="container2" id="con2">
+      <div class="info" id="data">
+        <p class="bold-info" id="bi">Today 10:00am - 10:00pm</p>
+        <p class="small-info" id="si">Working time</p>
+      </div>
+
+      <div class="info" id="data">
+        <p class="bold-info" id="bi">Washington, D.C., DC, USA</p>
+        <p class="small-info" id="si">Our Location</p>
+      </div>
+
+      <div class="info" id="data">
+        <p class="bold-info" id="bi">+0123 456 7891</p>
+        <p class="small-info" id="si">Phone Number</p>
+      </div>
+    </div>
+
+    <p class="menu" id="menu1">MENU</p>
+
+    <div class="container3" id="con3">
+      <img src="./assets/pic1.png">
+      <img src="./assets/pic2.png">
+      <img src="./assets/pic3.png">
+      <img src="./assets/pic4.png">
+      <img src="./assets/pic5.png">
+      <img src="./assets/pic6.png">
+    </div>
+
+    <div>
+      <button class="see-all-menu" id="see-all">SEE ALL MENU</button>
+    </div>
+
+    <div class="general-wrapper2" id="gen-2">
+      <div class="burger" id="br"></div>
+
+      <div class="subscribe1" id="sub1">
+        <h3>Subscribe To Our Newsletter</h3>
+      
+        <p class="lorem2" id="words2">
+          Lorem ipsum dolor sit amet consectetur amett adipcing<br>
+          elit. Dolore accusantium ducimus molestiae, qui hollie<br> 
+          voluptatem voluptatum culpa, perspiciatis quo donornor<br>
+          remque.
+        </p>
+
+      <form>
+          <input class="email" id="mail" type="email" placeholder="Type your email address" required>
+          <button class="subscribe2" id="sub2" type="submit"><h5>SUBSCRIBE</h5></button>
+      </form>
+    </div>
+    </div>
+    
+    <footer>
+    <div class="container4" id="con9">
+      <div class="food" id="fd">
+      <div class="logo"><img src="./assets/logo.png"/></div>
+
+        <p class="lorem3" id="words3">
+          Lorem ipsum dolor sit amet,<br>
+          consectetur adipisicing elit.<br>
+          Suscipit, culpa in delenit.
+        </p>
+
+      <div class="social" id="media">
+        <img src="./assets/Facebook.svg" class="fb">
+        <img src="./assets/Twitter.svg" class="twi">
+        <img src="./assets/Linkind.svg" class="linked">
+        <img src="./assets/Instagram.svg" class="insta">
+      </div>
+      </div>
+
+      <div>
+        <h4 class="user" id="us">User Link</h4>
+        <p class="about-us" id="about">About Us<br>Contact Us<br>Order Delivery<br>Payment & Tax<br>Terms of Services</p>
+      </div>
+
+      <div>
+        <h4 class="contact-us1" id="con-us1">Contact Us</h4>
+        <p class="contact-us2" id="con-us2">1234 Country Club Ave<br>NC 123456, London, UK<br>+0123 456 7891</p>
+      </div>
+    </div>
+  </footer>
+
+    <script src="project.js"></script>
+  </body>
+</html>
