@@ -45,8 +45,8 @@ nav{
 
 .show {
     display: flex;
-    flex-direction: column;
-    justify-content: left;
+    /* flex-direction: column; */
+    /* justify-content: left; */
     align-items: flex-start;
     gap: 10px;
 }
@@ -54,6 +54,7 @@ nav{
 .nav-links-wrap {
     display: flex;
     align-items: center;
+    flex-direction: column;
     gap: 8px;
 }
 
@@ -66,6 +67,7 @@ nav{
     color: black;
     text-transform: capitalize;
     font-size: 14px;
+    font-weight: 900px;
 }
 
 .nav-link a:hover {
@@ -78,8 +80,9 @@ nav{
     color: black;
     font-size: 14px;
     width: 100px;
-    padding: 10px 10px 10px 10px;
+    padding: 0px 10px 10px 10px;
     border-radius: 4px;
+    margin-top: 0px;
 }
 
 .nav-btn:hover{
@@ -217,7 +220,7 @@ button.see-all-menu{
 .subscribe1 h3{
     width: 300px;
     height: 30px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 800px;
     margin: 20px 30px 20px 30px;
     text-align: center;
@@ -226,9 +229,9 @@ button.see-all-menu{
 .lorem2{
     width: 330px;
     height: 150px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     margin-top: 10px;
     margin-left: 15px;
 }
@@ -385,7 +388,11 @@ button.see-all-menu{
     }
     
     .nav-links-wrap {
-        gap: 95px;
+        gap: 80px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        gap: 70x;
     }
     
     .nav-link {
@@ -413,7 +420,7 @@ button.see-all-menu{
         padding: 0px;
         text-align: right;
         border-radius: 4px;
-        width: 160px;
+        width: 85px;
     }
     
     .nav-btn:hover{
