@@ -120,7 +120,7 @@ span{
 
 button.order{
     color: #FFFFFF;
-    background-color: #F48E28;
+    background-image: linear-gradient(#EFAB68, #F48E28);
     width: 310px;
     height: 50px;
     font-size: 18px;
@@ -474,7 +474,7 @@ button.see-all-menu{
     
     button.order{
         color: #FFFFFF;
-        background-color: #F48E28;
+        background-image: linear-gradient(#EFAB68, #F48E28);
         width: 230px;
         height: 40px;
         font-weight: 600;
